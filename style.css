@@ -1,12 +1,5 @@
 <style>
 
-a:hover{
-    color: orange;
-    text-align: center;
-    text-decoration: underline;
-    background: none;
-}
-
 .container {
   margin: 0 auto;
   max-width: 500px;
@@ -37,29 +30,31 @@ span, .city-description {
   background-color: #FFFFFF;
 }
 
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #F9F7F5;
+}
+
 img {
   width: 50px;
-  margin: 10px 6px 4px 10px;
+  margin: 10px 8px 4px 10px;
   position: relative;
   display: inline-block;
 }
 
+a:hover{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    background: none;
+}
+
 .square {
   width: 440px;
-  height: 2px;
+  height: 3px;
   padding-left: 2px;
   margin: 1px 10px 10px 10px;
   background-color: #D19A61
-}
-
-a {
-  color: purple;
-  text-align: center;
-}
-
-body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  background-color: #F9F7F5;
 }
 
 </style>

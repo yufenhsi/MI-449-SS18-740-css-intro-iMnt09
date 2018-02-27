@@ -1,6 +1,10 @@
 <style>
-.body {
-  font-family: 'Open Sans', Arial, sans-serif;
+
+a:hover{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    background: none;
 }
 
 .container {
@@ -14,35 +18,37 @@ h1, .tagline {
 
 h2 {
   padding-left: 10px;
+  margin-top: 24px;
+  margin-bottom: 13px;
 }
 
 span, .city-description {
   font-size: 14px;
   Line: black;
-  margin: 15px;
+  margin: 17px;
 }
 
 .row {
   margin: 18px auto;
   max-width: 500px;
   padding-top: 7px;
-  padding-bottom: 12px;
+  padding-bottom: 20px;
   padding-left: 20px;
   background-color: #FFFFFF;
 }
 
 img {
   width: 50px;
-  margin: 10px 5px 5px 10px;
+  margin: 10px 6px 4px 10px;
   position: relative;
-display: inline-block;
+  display: inline-block;
 }
 
 .square {
   width: 440px;
   height: 2px;
   padding-left: 2px;
-  margin: 1px 10px 3px 10px;
+  margin: 1px 10px 10px 10px;
   background-color: #D19A61
 }
 
@@ -51,13 +57,8 @@ a {
   text-align: center;
 }
 
-a:hover{
-    color: orange;
-    text-decoration: underline;
-    background: none;
-}
-
 body {
+  font-family: 'Open Sans', Arial, sans-serif;
   background-color: #F9F7F5;
 }
 
